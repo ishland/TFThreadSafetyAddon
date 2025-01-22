@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="*"
+license="MIT"
+issueTrackerURL="https://github.com/ishland/TFThreadSafetyAddon/issues"
+clientSideOnly = false
+showAsResourcePack = false
+showAsDataPack = false
+
+[[mods]]
+modId="tfthreadsafetyaddon"
+version="${version}"
+displayName="TwilightForest Thread Safety Addon"
+logoFile="assets/tfthreadsafetyaddon/icon.png"
+authors="ishland"
+description='''Makes twilight forest generation thread-safe and faster'''
+displayURL = "https://github.com/ishland/TFThreadSafetyAddon"
+
+[[mixins]]
+config="tfthreadsafetyaddon.mixins.json"
+
+[[dependencies.tfthreadsafetyaddon]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tfthreadsafetyaddon]]
+modId = "twilightforest"
+type = "required"
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
