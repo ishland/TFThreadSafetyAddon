@@ -8,6 +8,7 @@
     "MixinCanopyMushroomFeature",
     "MixinCloudCastleComponent",
     "MixinFinalCastleMuralComponent",
+    "MixinKeyBiomesLayer",
     "MixinMinotaurMazeComponent",
     "MixinNoiseChunkGenerator",
     "MixinRedCanopyMushroomFeature",
