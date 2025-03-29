@@ -5,18 +5,9 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "MixinBiomeDensitySource",
-    "MixinCanopyMushroomFeature",
-    "MixinCloudCastleComponent",
-    "MixinFinalCastleMuralComponent",
-    "MixinKeyBiomesLayer",
-    "MixinMinotaurMazeComponent",
     "MixinNoiseChunkGenerator",
-    "MixinRedCanopyMushroomFeature",
-    "MixinStrongholdPieces",
-    "MixinStrongholdPieceWeight",
     "MixinTerrainDensityRouter",
-    "MixinTFBiomeProvider",
-    "MixinTFMaze"
+    "MixinTFBiomeProvider"
   ],
   "client": [
   ],
