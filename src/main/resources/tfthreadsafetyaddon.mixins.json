@@ -9,6 +9,7 @@
     "MixinLazyAreaContext",
     "MixinMinotaurMazeComponent",
     "MixinNoiseChunkGenerator",
+    "MixinNoiseDensityRouter",
     "MixinTerrainDensityRouter",
     "MixinTFBiomeProvider",
     "MixinTFMaze"
