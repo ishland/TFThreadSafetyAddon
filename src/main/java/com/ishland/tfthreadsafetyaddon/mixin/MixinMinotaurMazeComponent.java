@@ -8,10 +8,7 @@ import net.minecraft.util.math.BlockBox;
 import net.minecraft.world.StructureWorldAccess;
 import net.minecraft.world.gen.StructureAccessor;
 import net.minecraft.world.gen.chunk.ChunkGenerator;
-import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Mutable;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import twilightforest.world.components.structures.TFMaze;
 import twilightforest.world.components.structures.TFStructureComponentOld;
@@ -19,8 +16,6 @@ import twilightforest.world.components.structures.minotaurmaze.MinotaurMazeCompo
 
 @Mixin(MinotaurMazeComponent.class)
 public abstract class MixinMinotaurMazeComponent extends StructurePiece {
-
-    @Shadow(remap = false) @Final @Mutable private TFMaze maze;
 
     protected MixinMinotaurMazeComponent(StructurePieceType type, int length, BlockBox boundingBox) {
         super(type, length, boundingBox);
